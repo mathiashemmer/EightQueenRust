@@ -1,0 +1,15 @@
+[package]
+name = "eight_queen"
+version = "0.1.0"
+authors = ["Mathias Hemmer <mathias@qualyteam.com.br>"]
+edition = "2018"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[dependencies]
+rand = "0.8.4"
+rayon = "1.5"
+serde_json = "*"
+serde = { version = "*", features = ["derive"] }
+
